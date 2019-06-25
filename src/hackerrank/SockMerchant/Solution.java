@@ -3,6 +3,7 @@ package hackerrank.SockMerchant;
 import java.util.HashSet;
 import java.util.Set;
 
+//https://www.hackerrank.com/challenges/sock-merchant/problem
 public class Solution {
     public static int sockMerchant(int n, int[] ar) {
         Set<Integer> set = new HashSet<>();
