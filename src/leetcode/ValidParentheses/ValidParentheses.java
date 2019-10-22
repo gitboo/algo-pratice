@@ -4,7 +4,7 @@ package leetcode.ValidParentheses;
 import java.util.Stack;
 
 /**
- * https://leetcode.com/problems/valid-parentheses/
+ * https://leetcode.com/problems/valid-parentheses
  */
 public class ValidParentheses {
 
