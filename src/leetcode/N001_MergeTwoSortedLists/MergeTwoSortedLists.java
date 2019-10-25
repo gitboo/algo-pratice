@@ -1,4 +1,4 @@
-package leetcode.MergeTwoSortedLists;
+package leetcode.N001_MergeTwoSortedLists;
 
 import java.util.Objects;
 
@@ -46,6 +46,9 @@ class Solution {
         return root;
     }
 
+    /**
+     * 링크드 리스트 할 때 어떻게 노드를 추가 하는지 이해 하자!
+     */
     private void addNode(ListNode target) {
         if (root == null) {
             root = target;
