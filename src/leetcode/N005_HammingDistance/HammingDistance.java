@@ -16,7 +16,6 @@ package leetcode.N005_HammingDistance;
  *      a >> i = 01; a의 모든 비트를 오른쪽으로 i 만큼 밀고, 맨 외쪽을 0으로 채움
  *      a << i = 10; a의 모든 비트를 왼쪽으로 i 만큼 밀고, 맨 오른쪽을 0으로 채움
  */
-
 public class HammingDistance {
     public static void main(String[] args) {
 
