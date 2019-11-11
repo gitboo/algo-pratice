@@ -1,6 +1,10 @@
 package leetcode.N006_ClimbingStairs;
 
 /**
+ *
+ * 승지니어 : https://youtu.be/d0oiDbuSr-I
+ * https://leetcode.com/problems/climbing-stairs/submissions/
+ *
  * 브레인스토밍을 해보면 문제의 값들이 "1 2 3 5 8 : 피보나치 수열" 과 같다.
  * f(n) = f(n-1) + f(n-2)
  *  - ex) f(5) = f(4) + f(3)
