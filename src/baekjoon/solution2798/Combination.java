@@ -6,7 +6,6 @@ import java.util.List;
 //https://gorakgarak.tistory.com/523?category=265216
 public class Combination {
     public static void main(String[] args) {
-        //int[] arr = new int[5];
         List<Integer> arr = new ArrayList<>();;
         combination(arr, 0, 5, 3, 0);
     }
