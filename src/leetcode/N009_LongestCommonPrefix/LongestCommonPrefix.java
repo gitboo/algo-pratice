@@ -32,7 +32,7 @@ class Solution {
                 .min(Comparator.comparing(String::length))
                 .get().toCharArray();
 
-        outer :
+        outer:
         for (int i = 0; i < minChars.length; i++) {
             for (String each : arr) {
                 if (each.charAt(i) != minChars[i]) {
