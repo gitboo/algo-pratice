@@ -21,7 +21,6 @@ class MinStack {
     }
 
     public void pop() {
-
         int peek = stack.pop();
 
         if (min == peek) {
@@ -33,7 +32,6 @@ class MinStack {
             );
         }
     }
-
     public int top() {
         return stack.peek();
     }
